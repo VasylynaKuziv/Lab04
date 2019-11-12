@@ -1,0 +1,84 @@
+
+@media only screen and (max-width : 1024px) {    
+
+    #hero{max-height: 660px;}    
+    
+    #findAnimals img{height: 150px;}
+     .navbar-header {float: none;}
+    .navbar-left,.navbar-right {float: none !important;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav>li {
+        float: none;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    .collapse.in{display:block !important;}
+
+}
+
+
+@media only screen and (max-width : 980px) {
+    
+  
+    #hero{height: 540px;}
+    .heroshot{ height: 300px; }
+    #about{padding-top: 40px;}
+    #findAnimals {text-align: center;}
+    #findAnimals img{height: 150px;}
+    #findAnimals ul{float: none;}
+    .myphoto{text-align: center;}
+  #navigate{
+    height: 60px;
+  }
+}
+@media only screen and (max-width : 640px) {
+
+    h2 {font-size: 1.9em;}
+    h3{font-size: 1.5em}
+    h4{font-size: 1.1em;}
+    
+
+    #hero{height: 400px;}    
+    .firstpage{padding-top: 30px;}
+.heroshot{height: 200px;}
+
+    
+
+    #about{text-align: center;}
+
+    #shotsByPlayerId li {width: 96%;}
+    
+
+        
+}
+
+@media only screen and (max-width : 480px) {
+    #hero{height: 480px;}    
+  .heroshot{height: 200px;}
+    .footersocial li{font-size: 1.5em}
+}
+
+@media only screen and (max-width : 320px) {
+    #hero{height: 320px;}
+     .heroshot{height: 150px;}
+    .firstpage{padding-top: 100px; padding-bottom: 30px;}
+
+}
+@media(min-width: 300px){}
+@media print {
+  .navig{display: none;}
+  #hero {page-break-after: always;}
+   #about {page-break-after: always;}
+    #animals {page-break-after: always;}
+     #support {page-break-after: always;}
+      .button_text{display: none;}
+      .footerlinks{display: none;}
+      .separetor{page-break-after: avoid;}
+   .takeanimal:after {
+    content: " можна, знайшовши контакти власника на нашому сайті";}
+    a[href^=http]:after{content:" <" attr(href) ">";
+
+    
+}
+
